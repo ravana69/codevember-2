@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #898989;
+}
+
+canvas {
+  -webkit-filter: blur(8px) contrast(8);
+  -moz-filter: blur(8px) contrast(8);
+  filter: blur(8px) contrast(8);
+}
